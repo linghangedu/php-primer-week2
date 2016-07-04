@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+<ul class = "nav nav-tabs">
+   <li class = "active"><a href = "#">Home</a></li>
+   <li><a href = "#">SVN</a></li>
+   <li><a href = "#">iOS</a></li>
+   <li><a href = "#">VB.Net</a></li>
+   <li><a href = "#">Java</a></li>
+   <li><a href = "#">PHP</a></li>
+</ul>
+<!-- Pills Navigation -->
+<ul class = "nav nav-pills">
+   <li class = "active"><a href = "#">Home</a></li>
+   <li><a href = "#">SVN</a></li>
+   <li><a href = "#">iOS</a></li>
+   <li><a href = "#">VB.Net</a></li>
+   <li><a href = "#">Java</a></li>
+   <li><a href = "#">PHP</a></li>
+</ul>
+
+<!-- Justified Nav -->
+<ul class = "nav nav-pills nav-justified">
+   <li class = "active"><a href = "#">Home</a></li>
+   <li><a href = "#">SVN</a></li>
+   <li><a href = "#">iOS</a></li>
+   <li><a href = "#">VB.Net</a></li>
+   <li><a href = "#">Java</a></li>
+   <li><a href = "#">PHP</a></li>
+</ul>
+
+<br>
+<br>
+<br>
+
+<ul class = "nav nav-tabs nav-justified">
+   <li class = "active"><a href = "#">Home</a></li>
+   <li><a href = "#">SVN</a></li>
+   <li><a href = "#">iOS</a></li>
+   <li><a href = "#">VB.Net</a></li>
+   <li><a href = "#">Java</a></li>
+   <li><a href = "#">PHP</a></li>
+</ul>
+
+<!-- Tabs with Dropdowns -->
+<ul class = "nav nav-tabs">
+   <li class = "active"><a href = "#">Home</a></li>
+   <li><a href = "#">SVN</a></li>
+   <li><a href = "#">iOS</a></li>
+   <li><a href = "#">VB.Net</a></li>
+
+   <li class = "dropdown">
+      <a class = "dropdown-toggle" data-toggle = "dropdown" href = "#">
+         Java
+         <span class = "caret"></span>
+      </a>
+
+      <ul class = "dropdown-menu">
+         <li><a href = "#">Swing</a></li>
+         <li><a href = "#">jMeter</a></li>
+         <li><a href = "#">EJB</a></li>
+         <li class = "divider"></li>
+         <li><a href = "#">Separated link</a></li>
+      </ul>
+
+   </li>
+
+   <li><a href = "#">PHP</a></li>
+</ul>
+
+
+
+<!-- With contents -->
+<ul id = "myTab" class = "nav nav-tabs">
+   <li class = "active">
+      <a href = "#home" data-toggle = "tab">
+         Tutorial Point Home
+      </a>
+   </li>
+
+   <li><a href = "#ios" data-toggle = "tab">iOS</a></li>
+
+   <li class = "dropdown">
+
+      <a href = "#" id = "myTabDrop1" class = "dropdown-toggle" data-toggle = "dropdown">
+         Java
+         <b class = "caret"></b>
+      </a>
+
+      <ul class = "dropdown-menu" role = "menu" aria-labelledby = "myTabDrop1">
+         <li>
+            <a href = "#jmeter" tabindex = "-1" data-toggle = "tab">
+               jmeter
+            </a>
+         </li>
+
+         <li>
+            <a href = "#ejb" tabindex = "-1" data-toggle = "tab">
+               ejb
+            </a>
+         </li>
+      </ul>
+
+   </li>
+
+</ul>
+
+<div id = "myTabContent" class = "tab-content">
+
+   <div class = "tab-pane fade in active" id = "home">
+      <p>Tutorials Point is a place for beginners in all technical areas.
+         This website covers most of the latest technologies and explains each of
+         the technology with simple examples. You also have a
+         <b>tryit</b> editor, wherein you can edit your code and try
+         out different possibilities of the examples.</p>
+   </div>
+
+   <div class = "tab-pane fade" id = "ios">
+      <p>iOS is a mobile operating system developed and distributed by
+         Apple Inc. Originally released in 2007 for the iPhone, iPod Touch, and
+         Apple TV. iOS is derived from OS X, with which it shares the Darwin
+         foundation. iOS is Apple's mobile version of the OS X operating system
+         used on Apple computers.</p>
+   </div>
+
+   <div class = "tab-pane fade" id = "jmeter">
+      <p>jMeter is an Open Source testing software. It is 100% pure Java
+         application for load and performance testing.</p>
+   </div>
+
+   <div class = "tab-pane fade" id = "ejb">
+      <p>Enterprise Java Beans (EJB) is a development architecture for
+         building highly scalable and robust enterprise level applications to be
+         deployed on J2EE compliant Application Server such as JBOSS,
+         Web Logic etc.</p>
+   </div>
+
+</div>
+
+<script>
+   $(function () {
+      $('#myTab li:eq(1) a').tab('show');
+   });
+</script>
+</body>
+</html>
