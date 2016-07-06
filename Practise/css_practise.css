@@ -1,0 +1,37 @@
+#frame{
+	border: 5px solid;
+	overflow: auto;
+	padding: 5px auto;
+	padding-right: 3px auto;
+	padding-left: 3px auto;
+}
+#header{
+	border: 5px solid lightblue;
+	
+}
+#navi{
+	border: 5px solid lightblue;
+	margin-top: 5px;
+}
+#minorframe{
+	margin-top: 5px;
+	border:0px solid lightblue;
+}
+#footer{
+	border:5px solid lightblue;
+	margin-top: 5px;
+	float: left;
+	width: 100%;
+}
+#sidebar{
+	border:5px solid lightblue;
+	width: 30%;
+	height: 400px;
+	float: left;
+}
+#main{
+	border: 8px solid lightblue;
+	float: right;
+	width: 50%;
+	height: 400px;
+}
